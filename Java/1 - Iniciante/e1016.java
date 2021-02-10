@@ -1,13 +1,14 @@
 import java.io.IOException;
 
-public class e1002 {
+public class e1016 {
+
     public static void main(String[] args) throws IOException {
 
         java.util.Scanner scan = new java.util.Scanner(System.in);
-        double a, b;
-        a = scan.nextDouble();
-        b = 3.14159 * (a * a);
-        System.out.printf("A=%.4f%n");
+        int a, b;
+        a = scan.nextInt();
+        b = a * 2;
+        System.out.printf("%d minutos%n" , b);
 
     }
 }
