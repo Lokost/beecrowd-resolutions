@@ -3,6 +3,7 @@ import java.io.IOException;
 public class e1005 {
     public static void main(String[] args) throws IOException {
 
+        // Funcional no URI
         java.util.Scanner scan = new java.util.Scanner(System.in);
         double a, b, c;
         a = scan.nextDouble();

@@ -4,6 +4,7 @@ public class e1012 {
 
     public static void main(String[] args) throws IOException {
 
+        // Funcional no URI
         java.util.Scanner scan = new java.util.Scanner(System.in);
         double a, b, c, tri, cir, tra, qua, ret;
         a = scan.nextDouble();

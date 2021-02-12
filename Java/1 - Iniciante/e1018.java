@@ -4,8 +4,10 @@ public class e1018 {
 
     public static void main(String[] args) throws IOException {
 
+        // Funcional no URI
         java.util.Scanner scan = new java.util.Scanner(System.in);
         int a = scan.nextInt();
+        System.out.println(a);
         int n100 = a / 100;
         a -= n100 * 100;
         int n50 = a / 50;

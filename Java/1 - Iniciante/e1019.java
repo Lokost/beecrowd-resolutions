@@ -4,6 +4,7 @@ public class e1019 {
 
     public static void main(String[] args) throws IOException {
 
+        // Funcional no URI
         java.util.Scanner scan = new java.util.Scanner(System.in);
         int a = scan.nextInt();
         int h = a / (60 * 60);
