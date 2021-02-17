@@ -1,3 +1,6 @@
+# coding: utf - 8
+# Funcional no URI
+
 aux = 0
 maior = 0
 menor = 0

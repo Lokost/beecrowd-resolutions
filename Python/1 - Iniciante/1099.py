@@ -1,4 +1,6 @@
 # coding: UTF-8
+# Funcional no URI
+
 N = int(input())
 for i in range(N):
     soma = int(0)

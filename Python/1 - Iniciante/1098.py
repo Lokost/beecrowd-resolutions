@@ -1,3 +1,6 @@
+# coding: utf-8
+# Incompleto
+
 i = 0
 j = 1
 acrescimo = (0.2)

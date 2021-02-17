@@ -1,3 +1,6 @@
+# coding: utf-8
+# Funcional no URI
+
 ver = list(map(int, input().split()))
 A = 'I'
 N = 0

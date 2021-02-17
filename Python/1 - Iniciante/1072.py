@@ -1,4 +1,6 @@
 # coding UTF-8
+# Funcional no URI
+
 N = int(input())
 dentro = int(0)
 fora = int(0)

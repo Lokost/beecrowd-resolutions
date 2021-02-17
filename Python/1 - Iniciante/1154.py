@@ -1,3 +1,6 @@
+# coding: utf-8
+# Funcional no URI
+
 soma = 0
 cont = 0
 

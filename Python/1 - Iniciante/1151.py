@@ -1,4 +1,6 @@
 # coding: UTF-8
+# Funcional no URI
+
 vet = ['0', '1']
 N = int(input())
 i = 1

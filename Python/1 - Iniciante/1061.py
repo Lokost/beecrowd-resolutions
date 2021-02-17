@@ -1,3 +1,6 @@
+# coding: utf-8
+# Funcional no URI
+
 d1 = input().split()
 h1 = input().split()
 d2 = input().split()

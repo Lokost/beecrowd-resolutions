@@ -1,3 +1,6 @@
+# coding: utf-8
+# Funcional no URI
+
 A = float(input())
 T = int(A)
 Tm = int((A - T) * 100)

@@ -1,4 +1,5 @@
 # coding: UTF - 8
+# Funcional no URI
 
 while True:
     soma = 0

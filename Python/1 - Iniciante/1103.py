@@ -1,3 +1,6 @@
+# coding: utf-8
+# Funcional no URI
+
 while True:
     linha = input().split()
     h1 = int(linha[0])

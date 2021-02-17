@@ -1,4 +1,5 @@
 # coding: UTF - 8
+# Funcional no URI
 
 X , Y = input().split(" ")
 X = float(X)

@@ -1,3 +1,6 @@
+# coding: utf-8
+# Funcional no URI
+
 A = int(input())
 mult = 1
 

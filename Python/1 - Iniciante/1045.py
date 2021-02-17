@@ -1,3 +1,6 @@
+# coding: utf-8
+# Funcional no URI
+
 a, b, c, = input().split(' ')
 a = float(a)
 b = float(b)

@@ -1,4 +1,5 @@
 # coding: UTF - 8
+# Funcional no URI
 
 A = int(input())
 h = int(A / 365)

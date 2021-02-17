@@ -1,4 +1,5 @@
 # coding: utf-8
+# Funcional no URI
 
 [a, b] = input().split()
 a = int(a)

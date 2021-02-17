@@ -1,3 +1,6 @@
+# coding: utf-8
+# Funcional no URI
+
 N = int(input())
 
 for i in range(N):

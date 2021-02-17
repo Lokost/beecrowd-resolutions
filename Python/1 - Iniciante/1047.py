@@ -1,4 +1,5 @@
 # Coding: UTF-8
+# Funcional no URI
 
 [a, b, c, d] = input().split(' ')
 a = int(a)

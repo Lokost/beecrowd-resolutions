@@ -1,3 +1,6 @@
+# coding: utf-8
+# Funcional no URI
+
 while True:
     [a, b] = input().split()
     a = int(a)
