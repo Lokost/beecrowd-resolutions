@@ -1,4 +1,5 @@
 # coding: UTF - 8
+# Funcional no URI
 
 x = input().split()
 n1, n2, n3, n4 = x
