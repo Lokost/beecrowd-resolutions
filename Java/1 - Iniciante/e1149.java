@@ -4,23 +4,16 @@ public class e1149 {
 
     public static void main(String[] args) throws IOException {
 
+        // Funcional no URI
         java.util.Scanner in = new java.util.Scanner(System.in);
-        int x = in.nextInt(), y = in.nextInt(), soma = 0, inteiros = 0, n = 0;
-        if (x > 0) {
-            soma++;
-            inteiros += 1;
-            n++;
+        int x = in.nextInt(), y = in.nextInt(), soma = 0;
+        while (y <= 0) {
+            y = in.nextInt();
         }
-        while (inteiros < 2) {
-            if (y > 0) {
-                soma += y;
-                inteiros += 1;
-                n += 1;
-            } else {
-                y = in.nextInt();
-            }
+        for (int i=1; i <= y; i++) {
+            soma += x;
+            x++;
         }
-        soma += inteiros + n;
         System.out.println(soma);
 
 
