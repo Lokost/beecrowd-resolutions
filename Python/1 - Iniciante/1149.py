@@ -6,7 +6,6 @@ A = 'I'
 N = 0
 soma = 0
 for i in ver:
-    print(i)
     if A == "I":
         A = i
 

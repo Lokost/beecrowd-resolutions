@@ -7,19 +7,34 @@ while True:
     m1 = int(linha[1])
     h2 = int(linha[2])
     m2 = int(linha[3])
-    inicio = 0
-    fim = 0
-    if m1+m2+h1+h2 == 0:
-        break
+    ht = int(0)
+
     if h1 == 0:
-        inicio = (24*60)+m1
-    else:
-        inicio = (h1*60) + m1
+        h1m = 24 * 60
     if h2 == 0:
-        fim =(24*60)+m2
+        h2m = 24 * 60
+
+    h1m = h1 * 60
+    h2m = h2 * 60
+
+    if h1m < h2m:
+        ht = h1m + h2m
+    elif h1m > h2m:
+        ht = (24 - (h1m + h2m))
     else:
-        fim = (h2*60) + m2
-    if fim > inicio:
-        print(fim-inicio)
+        ht = 0
+
+    if m1 < m2:
+        mt = m2 - m1
+    elif m2 < m1:
+        ht -= 60
+        mt = (60 - (m1 - m2))
     else:
-        print((24*60)-(inicio-fim))
+        mt = 0
+
+    tt = ht + mt
+
+    if tt == 0:
+        break
+    else:
+        print(tt)
