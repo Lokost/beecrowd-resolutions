@@ -1,3 +1,4 @@
+// Funcional no beecrowd
 package main
 
 import (
