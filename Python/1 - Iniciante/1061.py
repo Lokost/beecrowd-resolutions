@@ -6,8 +6,13 @@ h1 = input().split()
 d2 = input().split()
 h2 = input().split()
 
+# d1 = dia X
+# h1 = X : Y : Z
+
 dc = [int(d1[1]), int(h1[0]), int(h1[2]), int(h1[4])]
 df = [int(d2[1]), int(h2[0]), int(h2[2]), int(h2[4])]
+
+# dc = X, H, M, S
 
 min_seg = 60
 hor_seg = min_seg * 60
