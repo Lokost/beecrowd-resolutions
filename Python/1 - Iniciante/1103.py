@@ -1,40 +1,42 @@
-# coding: utf-8
-# Funcional no URI
+# coding: UTF-8
+# Arquivo: 1103
+
+# Funcional no beecrowd
 
 while True:
-    linha = input().split()
-    h1 = int(linha[0])
-    m1 = int(linha[1])
-    h2 = int(linha[2])
-    m2 = int(linha[3])
-    ht = int(0)
+    tempos = input().split()
+    h1, m1, h2, m2, *_ = [int(x) for x in tempos]
 
-    if h1 == 0:
-        h1m = 24 * 60
-    if h2 == 0:
-        h2m = 24 * 60
-
-    h1m = h1 * 60
-    h2m = h2 * 60
-
-    if h1m < h2m:
-        ht = h1m + h2m
-    elif h1m > h2m:
-        ht = (24 - (h1m + h2m))
-    else:
-        ht = 0
-
-    if m1 < m2:
-        mt = m2 - m1
-    elif m2 < m1:
-        ht -= 60
-        mt = (60 - (m1 - m2))
-    else:
-        mt = 0
-
-    tt = ht + mt
-
-    if tt == 0:
+    if h1 + h2 + m1 + m2 == 0:
         break
-    else:
-        print(tt)
+
+    elif h1 < 24 and m1 < 60 and h2 < 24 and m2 < 60:
+
+        if h2 > h1:
+            TH = h2 - h1
+        
+        elif h2 < h1:
+            TH = 24 - h1 + h2
+        else:
+            TH = 0
+
+        
+        if m2 > m1:
+            TM = m2 - m1
+        
+        elif m2 < m1:
+            if TH == 0:
+                TH = 23
+            else:
+                TH -= 1
+            TM = 60 - m1 + m2
+        
+        else:
+            if TH == 0:
+                TH = 24
+            TM = 0
+
+        TM += TH * 60
+        print(TM)
+
+# Fim
