@@ -1,9 +1,9 @@
 --[Funcional]
 
-n = io.read('n')
-h = io.read('n')
-s = io.read('n')
+local n = io.read('n')
+local h = io.read('n')
+local s = io.read('n')
 
-salario = (h * s)
+local salario = (h * s)
 print(string.format('NUMBER = %d',n))
 print(string.format('SALARY = U$ %.2f', salario))

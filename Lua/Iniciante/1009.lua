@@ -1,7 +1,7 @@
-nome = io.read('l')
-s = io.read('n')
-m = io.read('n')
+local nome = io.read('l')
+local s = io.read('n')
+local m = io.read('n')
 
-nsalario = s + (m / 100) * 15
+local nsalario = s + (m / 100) * 15
 
 print(string.format('TOTAL = R$ %.2f', nsalario))
